@@ -1,0 +1,137 @@
+<!DOCTYPE>
+<html>
+<head>
+<style>
+body {
+  margin:0;
+}
+.header {
+    background-color: #3b5998;
+    padding:5px;
+    text-align: left;
+    font-size: 20px;
+    color:white;
+    border: 5px solid gray;
+
+}
+
+.column{
+float:left;
+width:600px;
+padding:37px;
+background-color: red;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+#boxmodel{
+padding: 5px;
+  background-color: red;
+
+}
+#submitbutton{
+  background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 100px;
+    cursor: pointer;
+
+}
+#submitbutton1{
+  background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+input[type=text],input[type=password],input[type=email]{
+  background-color:lightgreen;
+    color: white;
+
+}
+
+</style>
+
+</head>
+
+<body>
+<div class="header">
+         <h1>Yar@na</h1>
+ 
+</div>
+
+<div class="row">
+           <div class="column"  backgroundcolor="red">
+
+     <h1><b>Create a New Account</b></h1>
+
+           <p>It’s free and always will be.</p>
+<form>
+
+  <p id="boxmodel">Firstname:<input type="text" name="Firstname"> </p>
+
+           <p id ="boxmodel">Lastname:<input type="text" name="Lastname"></p>
+
+ <p id="boxmodel">Gender:<input type="radio" name="gender"  value="male"/>male
+
+             <input type="radio" name="gender"  value="female"/>female</p>
+
+ <p id="boxmodel"> Birthday:<input type="date" name="bday" ></p>
+
+            <p id="boxmodel"> E-mail:<input type="email" name="email"></p>
+
+  <p id="boxmodel">Password:<input type="Password" name="Password"></p>
+
+            <p id="submitbutton">Create Account</p>
+</form>
+
+ </div>
+
+ <div class="column">
+
+            <h1><b>Create your new password</b></h1>
+
+    <p>It's free and always will be.</p>
+
+    <hr>
+<form>
+   <p>A strong password is a combination of letters and punctuation makes.It must be at least 6 characters long.</p>
+
+    	      <p id="boxmodel"> Creat Password:<input type="Password" name="Password"></p>
+
+   <p id="boxmodel"> confirme Password:<input type="Password" name="Password"></p>
+
+    	     <p>To make sure your accont's secure,we can log you out of any other computer and phones.</p>
+
+  <p id="boxmodel"><input type="radio" name="gender"  value="male"/>Log me out of other device
+
+
+    	   	 <p id="boxmodel"><input type="radio" name="gender"  value="male"/>Keep me logged in
+    	 
+ <p id="submitbutton1">Continue </p>
+
+ 	   <p id="submitbutton1">skip</p>
+
+ </div>
+
+</div>
+
+</body>
+
+</html>
